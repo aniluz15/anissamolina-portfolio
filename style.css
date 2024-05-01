@@ -38,6 +38,8 @@
     display: flex;
     width: 100%;
     flex-flow: row wrap;
+    justify-content: center;
+    margin-left: 10em;
 
 }
 .below-fold {
@@ -46,11 +48,18 @@
 }
 .ind-about {
     font-size: x-large;
+    
 }
 
 .senior {
     width: 40%;
     
+}
+
+.ind-img {
+    display: flex;
+    justify-content: center;
+    align-items: centerl;;
 }
 
 .image {
@@ -71,6 +80,7 @@
     width: 50%;
     display: flex;
     flex-direction: row;
+    margin-left: 4em;
 }
 
 .image2 {
@@ -136,6 +146,72 @@
     width: 50dvw;
 }
 
+.corner-name {
+    display: flex;
+    flex-direction: row;
+}
+
+/* NAV BAR STYLING */
+.navbar {
+    width: 85%;
+    display: flex;
+    place-content: flex-end;
+}
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #B49FCC;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ADBCA2;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  } 
 /* reusable classes */
 .half {
     width: 50%;
