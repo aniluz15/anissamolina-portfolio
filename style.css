@@ -35,7 +35,7 @@
     justify-content: center;
     color: white;
     align-items: center;
-    font-size: xx-large;
+    font-size: x-large;
     height: 30dvh;
     background-color: #4F6367;
 }
@@ -99,7 +99,7 @@
 
 .image {
     width: 75%;
-    height: 60%;
+    height: 85%;
     margin-top: 1em;
     margin-left: 1em;
     border-radius: 2em;
@@ -115,14 +115,25 @@
 }
 
 .image-long {
-    width: 69%;
+    width: 68%;
+}
+
+.top-fig {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+}
+
+.bottom-fig{
+    display: flex;
+    flex-direction: row;
 }
 
 .half-page {
     margin-left: 1em;
     width: 50%;
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
     height: 50%;
 }
 
@@ -192,14 +203,70 @@
 }
 
 .half-text {
-    font-size: 29px;
+    font-size: 24px;
     width: 50dvw;
+}
+
+.half-text-left{
+    font-size: 29px;
+    width: 50%;
 }
 
 .corner-name {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
+
+.bottom-fig {
+    display: flex;
+    flex-flow: row;
+}
+
+/* POLAROID HOVER */
+.container {
+    position: relative;
+    width: 50%;
+    height: 95%;
+  }
+  
+  .image {
+    display: block;
+    width: 90%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 11;
+    bottom: 0;
+    left: 16px;
+    right: 0;
+    height: 96%;
+    width: 90%;
+    opacity: 0;
+    border-radius: 2em;
+    transition: .5s ease;
+    background-color: #b49fccb4;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 
 /* NAV BAR STYLING */
 .navbar {
