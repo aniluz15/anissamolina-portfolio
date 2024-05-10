@@ -162,6 +162,10 @@
     flex-direction: row;
 }
 
+.images {
+    width: 20%;
+}
+
 
 .page2 {
     background-color: #FEF8F0;
