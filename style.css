@@ -207,12 +207,12 @@
 }
 
 .half-text {
-    font-size: 24px;
+    font-size: 17px;
     width: 50dvw;
 }
 
 .half-text-left{
-    font-size: 29px;
+    font-size: 17px;
     width: 50%;
 }
 
@@ -258,6 +258,10 @@
     opacity: 1;
   }
   
+  .images-scroll {
+    width: 40%;
+  }
+
   .text {
     color: white;
     font-size: 14px;
@@ -271,6 +275,52 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+  div.scroll-container {
+    background-color: #B49FCC;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+  }
+
+
+.half {
+    width: 50%;
+    font-size: 20px;
+    margin-left: 1em;
+}
+
+.half-right {
+    width: 50%;
+    display: flex;
+    
+}
+
+.image-UX {
+    width: 65%;
+    border-style: solid;
+    border-radius: 1em;
+    border-color:#000000;
+    margin-right: 1em;
+}
+
+.figure {
+    display: flex;
+    justify-content: flex-end;
+
+    
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
 /* NAV BAR STYLING */
 .navbar {
