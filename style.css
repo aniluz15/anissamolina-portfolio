@@ -383,6 +383,10 @@
   .dropdown:hover .dropdown-content {
     display: block;
   } 
+
+  .image {
+    width: 50% ;
+  }
 /* reusable classes */
 .half {
     width: 50%;
