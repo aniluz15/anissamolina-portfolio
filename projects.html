@@ -8,6 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
 </head>
 <nav class="nav font">
     <section class="corner-name">
@@ -55,13 +59,49 @@
   <section class="jurassicpark-section">
     <section class="background">
       <p>For this project, we were assigned a specific part of a fictional amusment park centered around Jurassic Park. My partner and I chose the section of doing Themed Dining. We worked on this from early October to January. We worked really hard on this website and I am really grateful to have had a good partner. :)</p>
-      <figure>
-        <img class="image" src="images/meetthedino.png" alt="">
-      </figure>
+      
       <a href="jurassicparkthemeddining.netlify.app">Jurassic Park</a>
     </section>
+    <section class="carousel column" id="carousel">
+      <div class="slide column">
+          <img src="images/681876025.347650.jpg "alt="hi">
+      </div>
+      <div class="slide column">
+          <img src="images/sav.JPG" alt="">
+      </div>
+      <div class="slide column">
+          <img class="carousel-tall" src="images/meetthedino.png" alt="hi">
+      </div>
+      <div class="slide column">
+          <img class="carousel-tall" src="images/" alt="">
+      </div>
+      <div class="slide column">
+          <img class="carousel-tall" src="images/" alt="">
+      </div>
+      <div class="slide column">
+          <img class="carousel-tall" src="images/" alt="">
+      </div>
+      <div class="slide column">
+          <img class="carousel-tall" src="images/" alt="">
+      </div>
+      <div class="slide column">
+          <img class="carousel-tall" src="images/" alt="">
+      </div>
+  </section>
+
+  <br>
+      <section class="carousel-but row">
+          <button id="backward"> <img src="/images/icons/left-caret-svg.svg"> </button>
+          <button id="forward"> <img src="/images/icons/right-caret.svg"> </button>
+      </section>
+
 
   </section>
     <a href="titanslegacy.netlify.app">Titans Legacy</a>
 </body>
+<script src="/script.js">
+</script>
+<script>
+    aFastCarousel('carousel');
+</script>
 </html>
