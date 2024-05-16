@@ -48,6 +48,11 @@
     font-size: xxx-large;
 }
 
+.future {
+    display: flex;
+    margin: 1em;
+}
+
 .welcome {
     display: flex;
     justify-content: center;
@@ -399,9 +404,7 @@
     display: block;
   } 
 
-  .image {
-    width: 50% ;
-  }
+
 
 
 /* carousel fasts */
@@ -474,4 +477,9 @@ div img{
 .column {
     display: flex;
     flex-direction: column;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
 }
